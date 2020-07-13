@@ -1,0 +1,45 @@
+body{
+	background: linear-gradient(51deg, #e1e4e8, #d8c3de);
+	/*background-repeat: no-repeat;*/
+	color: black;
+	text-align: center;
+	place-items: center;
+}
+
+.style{
+	position: relative;
+	width: 50px; 
+	height: 50px; 
+	border-radius: 10%; 
+	border: 2px solid purple; 
+	text-align: center;
+	margin-bottom: 2px;
+}
+
+.wrapper{
+	display: grid;
+	position: relative;
+	right: 0%;
+	grid-template-columns: repeat(5, 1fr);
+	max-width: 500px;
+	margin: 0 auto; 
+	/*border: 5px solid teal;*/
+	border-radius: 20px;
+	width: auto;
+	place-items: center;
+
+}
+
+button{
+	border-radius: 50px;
+	background-color: purple;
+	color: #fff;
+	width: auto;
+	height: 50px;
+	border: 3px solid grey;
+
+}
+
+button:focus, [type="submit"]:focus {
+   outline: none;
+}
