@@ -5,6 +5,6 @@
  This program is still a working progress as i wish to add two form fields one for the range of numbers to pick from and the other for the amount of numbers you want to output.
  The program wil search for those criteria and output the result to the page.
  
- [Link to view project](randomnumbers.netlify.app)
+ [Link to view project](randomnumber.netlify.app)
 
   
